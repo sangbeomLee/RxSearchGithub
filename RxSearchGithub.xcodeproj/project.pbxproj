@@ -17,6 +17,7 @@
 		D3C888A124AC6DA30090EADD /* SearchListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C888A024AC6DA30090EADD /* SearchListTableViewCell.swift */; };
 		D3C888A324AC6F440090EADD /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C888A224AC6F440090EADD /* ViewModel.swift */; };
 		D3C888A524AC6F750090EADD /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C888A424AC6F750090EADD /* Repository.swift */; };
+		D3C888A724AC76E30090EADD /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C888A624AC76E30090EADD /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		D3C888A024AC6DA30090EADD /* SearchListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListTableViewCell.swift; sourceTree = "<group>"; };
 		D3C888A224AC6F440090EADD /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		D3C888A424AC6F750090EADD /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		D3C888A624AC76E30090EADD /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		D83C3F010C5AFAE2A5A3F9D7 /* Pods-RxSearchGithub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSearchGithub.debug.xcconfig"; path = "Target Support Files/Pods-RxSearchGithub/Pods-RxSearchGithub.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,6 +56,47 @@
 				688D96B0AF870782B2E1B851 /* Pods_RxSearchGithub.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D363DEA524AF3B3100FBF072 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D3C8889024AC6CAC0090EADD /* ViewController.swift */,
+				D363DEA924AF3B7C00FBF072 /* Cell */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D363DEA624AF3B3B00FBF072 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D3C888A224AC6F440090EADD /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D363DEA724AF3B4A00FBF072 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3C888A424AC6F750090EADD /* Repository.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D363DEA824AF3B5000FBF072 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D3C888A624AC76E30090EADD /* APIManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D363DEA924AF3B7C00FBF072 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D3C888A024AC6DA30090EADD /* SearchListTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		D3C8888024AC6CAC0090EADD = {
@@ -79,10 +122,10 @@
 			children = (
 				D3C8888C24AC6CAC0090EADD /* AppDelegate.swift */,
 				D3C8888E24AC6CAC0090EADD /* SceneDelegate.swift */,
-				D3C8889024AC6CAC0090EADD /* ViewController.swift */,
-				D3C888A224AC6F440090EADD /* ViewModel.swift */,
-				D3C888A424AC6F750090EADD /* Repository.swift */,
-				D3C888A024AC6DA30090EADD /* SearchListTableViewCell.swift */,
+				D363DEA524AF3B3100FBF072 /* Controller */,
+				D363DEA624AF3B3B00FBF072 /* ViewModel */,
+				D363DEA724AF3B4A00FBF072 /* Model */,
+				D363DEA824AF3B5000FBF072 /* Network */,
 				D3C8889224AC6CAC0090EADD /* Main.storyboard */,
 				D3C8889524AC6CAE0090EADD /* Assets.xcassets */,
 				D3C8889724AC6CAE0090EADD /* LaunchScreen.storyboard */,
@@ -221,6 +264,7 @@
 				D3C8888D24AC6CAC0090EADD /* AppDelegate.swift in Sources */,
 				D3C8888F24AC6CAC0090EADD /* SceneDelegate.swift in Sources */,
 				D3C888A524AC6F750090EADD /* Repository.swift in Sources */,
+				D3C888A724AC76E30090EADD /* APIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

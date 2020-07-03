@@ -51,6 +51,10 @@
                                                 <constraint firstAttribute="trailing" secondItem="mSH-ff-vO3" secondAttribute="trailing" constant="5" id="m6d-me-1rO"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="subtitleLabel" destination="7uo-Jr-hO0" id="hPu-5Q-ulj"/>
+                                            <outlet property="titleLable" destination="TL7-GT-GZy" id="pBg-fa-SL5"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
