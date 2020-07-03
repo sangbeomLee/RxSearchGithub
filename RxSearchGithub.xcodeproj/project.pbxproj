@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8B6A16B42BF08F27DC146629 /* Pods_RxSearchGithub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688D96B0AF870782B2E1B851 /* Pods_RxSearchGithub.framework */; };
+		D363DEAC24AF3F8800FBF072 /* screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = D363DEAB24AF3F8800FBF072 /* screenshot1.png */; };
 		D3C8888D24AC6CAC0090EADD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8888C24AC6CAC0090EADD /* AppDelegate.swift */; };
 		D3C8888F24AC6CAC0090EADD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8888E24AC6CAC0090EADD /* SceneDelegate.swift */; };
 		D3C8889124AC6CAC0090EADD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8889024AC6CAC0090EADD /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		3271A9AD443C5C29F2F812F8 /* Pods-RxSearchGithub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSearchGithub.release.xcconfig"; path = "Target Support Files/Pods-RxSearchGithub/Pods-RxSearchGithub.release.xcconfig"; sourceTree = "<group>"; };
 		688D96B0AF870782B2E1B851 /* Pods_RxSearchGithub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSearchGithub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D363DEAB24AF3F8800FBF072 /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot1.png; sourceTree = "<group>"; };
 		D3C8888924AC6CAC0090EADD /* RxSearchGithub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSearchGithub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C8888C24AC6CAC0090EADD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3C8888E24AC6CAC0090EADD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,9 +101,18 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		D363DEAA24AF3F4E00FBF072 /* ScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+				D363DEAB24AF3F8800FBF072 /* screenshot1.png */,
+			);
+			path = ScreenShot;
+			sourceTree = "<group>";
+		};
 		D3C8888024AC6CAC0090EADD = {
 			isa = PBXGroup;
 			children = (
+				D363DEAA24AF3F4E00FBF072 /* ScreenShot */,
 				D3C8888B24AC6CAC0090EADD /* RxSearchGithub */,
 				D3C8888A24AC6CAC0090EADD /* Products */,
 				FEB4022BAAA1E9E33A57D437 /* Pods */,
@@ -204,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3C8889924AC6CAE0090EADD /* LaunchScreen.storyboard in Resources */,
+				D363DEAC24AF3F8800FBF072 /* screenshot1.png in Resources */,
 				D3C8889624AC6CAE0090EADD /* Assets.xcassets in Resources */,
 				D3C8889424AC6CAC0090EADD /* Main.storyboard in Resources */,
 			);
